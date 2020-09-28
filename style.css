@@ -125,11 +125,18 @@ section.project .container .picture {
   font-size: 2rem;
   font-weight: 400;
   display: inline-block;
-  background: var(--coral);
-  color: var(--bg-dark);
+  /* background: var(--coral); */
+  border: 2px solid var(--coral);
+  color: var(--coral);
   padding: 0.5rem 1rem;
   margin: 1rem 0;
   cursor: pointer;
+  border-radius: 1rem;
+}
+
+.container .btn:hover {
+  background: var(--coral);
+  color: var(--bg-dark);
 }
 
 .bar {
